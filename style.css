@@ -1,0 +1,36 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.main_txt{
+    font-family: 'Gloria Hallelujah', cursive;
+    text-align: center;
+    margin: 40px 0px;
+}
+.main_txt.azul{
+    color: blue;
+}
+.main_txt.rojo{
+    color: red;
+}
+.btn_toggle{
+    display: block;
+    margin: auto;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 20px 30px;
+    outline: none;
+    cursor: pointer;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 1px 3px 3px rgba(0,0,0,.5);
+    background: rgb(2, 67, 189);
+    color: #eeeeee;
+}
+.btn_toggle.azul{
+    background: rgb(31, 86, 214);
+}
+.btn_toggle.rojo{
+    background: rgb(216, 30, 30);
+}
